@@ -1,0 +1,21 @@
+
+Conta :
+
+Atributos:
+
+saldo
+agencia
+numero
+titular
+
+
+Ação desta conta ou seja metodos :
+
+Saca
+Deposita 
+Transfere
+
+Analogia * Uma Conta é uma planta e as contas dos clientes uma Casa.
+
+
+Ou seja Classe e Objeto desta classe.
