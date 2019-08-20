@@ -2,8 +2,7 @@
 public class CriaConta {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+				
 		Conta primeiraConta = new Conta();
 		Conta segundaConta = new Conta();
 		
@@ -17,6 +16,14 @@ public class CriaConta {
 		System.out.println(" A segunda conta está com saldo atual de: R$"+segundaConta.saldo);
 		
 
+		
+	if (primeiraConta == segundaConta) {
+			
+			System.out.println("São contas iguais!");  
+		}else {
+			
+			System.out.println("São contas diferentes!");
+		}
 	}
 
 }
