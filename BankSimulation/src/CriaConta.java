@@ -24,6 +24,9 @@ public class CriaConta {
 			
 			System.out.println("São contas diferentes!");
 		}
+	
+	System.out.println(primeiraConta);//Ambas ele imprime as referencias que são diferentes.
+	System.out.println(segundaConta);//Analogia: referencia não é a casa é o cep da casa,no caso aqui duas casas ou objetos diferentes.
 	}
 
 }

@@ -1,7 +1,7 @@
 
 Conta :
 
-Atributos:
+Atributos = O que ela tem?:
 
 saldo
 agencia
@@ -9,7 +9,7 @@ numero
 titular
 
 
-Ação desta conta ou seja metodos :
+Ação desta conta ou seja metodos = o que ela fa? :
 
 Saca
 Deposita 
