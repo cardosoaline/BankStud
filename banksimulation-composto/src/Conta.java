@@ -1,7 +1,7 @@
 
 public class Conta {
 	
-	double saldo = 100;
+    private	double saldo ;
 	int agencia  ;
 	int numero;
 	Cliente titular ;
@@ -18,7 +18,7 @@ public class Conta {
 	//Metodo Sacar
 	public boolean saca(double valor) {
 		
-	if (valor <= this.saldo) {		
+	if ( this.saldo >= valor) {		
 		this.saldo -= valor;
 		System.out.println("Seu saldo atual é R$"+this.saldo+ " você acabou de sacar R$" + valor);
 		return true;
@@ -50,6 +50,11 @@ public class Conta {
 			 return false;
 		 }
 		 
+	 }
+	 
+	 public double pegaSaldo() {
+		 
+		 return this.saldo;
 	 }
 
 }
