@@ -20,6 +20,11 @@ public class TestaMetodos {
 		contaLuiza.transfere(200, contaAline);
 		System.out.println("Saldo da conta da Luiza R$"+contaLuiza.saldo);
 		System.out.println("Saldo da conta da Aline R$"+contaAline.saldo);
+		
+		contaAline.titular = "Aline Lopes";
+		System.out.println(contaAline.titular);
 	}
+	
+	   
 	
 }

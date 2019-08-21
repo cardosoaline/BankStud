@@ -5,6 +5,8 @@ public class Conta {
 	int agencia  ;
 	int numero;
 	String titular;
+	String cpf;
+	String profissao;
 	
 	
 	//void pois não vai devolver resposta.//Metodo Depositar
