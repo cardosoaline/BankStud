@@ -13,6 +13,7 @@ public class TestaBanco {
 		Conta contaAline = new Conta();
 		contaAline.deposita(100);
 		
+		//Associa a conta da Aline a cliente Aline
 		contaAline.titular = aline;
 		System.out.println(contaAline.titular.nome);
 		
