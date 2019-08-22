@@ -68,6 +68,13 @@ public class Conta {
 		 return this.numero = numero;
 	 }
 
+	 public int getAgencia() {
+		return agencia;
+	}
+	 
+	 public void setAgencia(int agencia) {
+		this.agencia = agencia;
+	}
 }
 
 
