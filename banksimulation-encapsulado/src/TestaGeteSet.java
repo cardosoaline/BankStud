@@ -4,7 +4,7 @@ public class TestaGeteSet {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Conta conta = new Conta();
+		Conta conta = new Conta(1214,2336);
 		
    // O encapsulamento ajuda a validar na propria classe auxilia
 		//na parte de manipular as informações.
